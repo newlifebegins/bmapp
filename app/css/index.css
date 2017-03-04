@@ -52,4 +52,19 @@ body,.page-group,.page { background: #fff; }
 
 /*罗塔页面*/
 .luota-card { margin: 0; }
-.luota-tab { background: #a5a5a6; }
+.luota-tab { background: #a5a5a6; padding: 2.6rem 0 1.3rem 0; }
+.luota-tab h1 { text-align: center; color: #16a542; margin-bottom: 0; line-height: 1.2; font-size: 1.5rem; }
+.luota-tab .buttons-row { text-align: center; width: 100%; display: block; }
+.luota-tab .buttons-row .button { border: none; background: none; color: #000; width: auto; display: inline-block; border-right: 1px solid #000; height: auto; line-height: 1.0; border-radius: initial; }
+.luota-tab .buttons-row .button:first-child { border-left: 1px solid #000; }
+.luota-tab .buttons-row .button.active { background: none; color: #16a542; }
+.luota-tab .content-block { padding: 0; }
+.luota-tab .tabs { padding-top: 1.3rem; }
+.luota-tab .card { background: transparent; box-shadow: none; margin: 0; }
+.luota-tab .card li { padding: .4rem 1.2rem; border-bottom: 1px solid #e7e7e7; }
+.luota-tab .card li:nth-of-type(1) { border-top: 1px solid #e7e7e7; }
+.luota-tab .card .list-block .item-inner:after { display: none; }
+.luota-tab .list-block .item-media { width: .7rem; background-image: url(../images/luota-list.png); background-size: .7rem; margin-right: .25rem; }
+.luota-tab .card .list-block .item-link .item-inner { background-image: url(../images/luota-more.png); }
+.luota-tab .card .item-title { font-size: .6rem; }
+.luota-tab .card .item-title span { font-family: 'Tahoma'; margin-left: .25rem; }
