@@ -44,8 +44,8 @@ body,.page-group,.page { background: #fff; }
 .fans-content .weixin { float: right; }
 #footer .footer-content { padding: 0 15%; }
 #footer h4,#footer h5,#footer p { text-align: center; margin: 0; }
-#footer h4 { margin: 1.8rem 0; color: #000; }
-#footer h5 { color: #000; font-size: .4rem; line-height: 1.25rem; margin-top: 1.3rem; }
+#footer h4 { margin: 1.8rem 0 0; color: #000; }
+#footer h5 { color: #000; font-size: .4rem; line-height: 1.25rem; margin-top: .9rem; }
 #footer p { color: #3e3a39; font-size: .4rem; line-height: 1.25rem; }
 .fans { text-align: center; font-size: .5rem; color: #666; }
 
@@ -60,7 +60,7 @@ body,.page-group,.page { background: #fff; }
 .luota-tab .buttons-row .button.active { background: none; color: #16a542; }
 .luota-tab .content-block { padding: 0; }
 .luota-tab .tabs { padding-top: 1.3rem; }
-.luota-tab .card { background: transparent; box-shadow: none; margin: 0; }
+.luota-tab .card { background: transparent; box-shadow: none; margin: 0; padding: 0; }
 .luota-tab .card li { padding: .4rem 1.2rem; border-bottom: 1px solid #e7e7e7; }
 .luota-tab .card li:nth-of-type(1) { border-top: 1px solid #e7e7e7; }
 .luota-tab .card .list-block .item-inner:after { display: none; }
@@ -68,3 +68,25 @@ body,.page-group,.page { background: #fff; }
 .luota-tab .card .list-block .item-link .item-inner { background-image: url(../images/luota-more.png); }
 .luota-tab .card .item-title { font-size: .6rem; }
 .luota-tab .card .item-title span { font-family: 'Tahoma'; margin-left: .25rem; }
+
+/*社群页面*/
+.shequn-card { box-shadow: none; background: #3e3a39; margin: 0; border-radius: initial; padding: 1.5rem; font-size: .5rem; color: #fff; line-height: .9rem; }
+.shequn-card .card-content-inner { padding: 0; }
+.shequn-card .card-content-inner .color-gray { font-size: .7rem; text-align: center; color: #fff; line-height: 1.75rem; font-weight: 600; margin-top: 1em; }
+
+/*新闻页面*/
+.news-card { box-shadow: none; background: #3e3a39; margin: 0; border-radius: initial; padding: 1.5rem; font-size: .5rem; color: #fff; line-height: .9rem; }
+.news-card .card-content-inner { padding: 0; }
+.news-card .card-content-inner p { font-size: .4rem; color: #fff; }
+.news-card .card-content-inner .color-gray { color: #0081b0; font-size: .6rem; line-height: .75rem; margin: 0; margin-top: .65rem; }
+.news-card .card-content-inner .size-big { color: #fff; font-size: .6rem; line-height: .75rem; margin: 0; }
+
+/*文化活动页面*/
+.list-block.inset.activity-list { background: #727171; margin: 0; padding: 1.75rem 0; border-radius: initial; }
+.list-block.inset.activity-list ul { background: transparent; border-radius: initial; }
+.list-block.inset.activity-list ul li { padding: 0 .75rem; position: relative; }
+.list-block.inset.activity-list ul li:after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 1px; background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,1), rgba(255,255,255,0.1)); }
+.list-block.inset.activity-list .item-link .item-inner { background-image: url(../images/more.png); background-size: 1.0rem; }
+.list-block.inset.activity-list .item-link .item-inner .item-title { font-size: .9rem; color: #000; }
+.list-block.inset.activity-list .item-link .item-inner .item-subtitle { font-size: .6rem; color: #fff; background: url(../images/icon.png) no-repeat left center; padding-left: 1.5rem; background-size: 1.2rem; line-height: 1.5rem; }
+.list-block.inset.activity-list .item-inner:after { display: none; }
