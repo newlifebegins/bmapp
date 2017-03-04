@@ -1,0 +1,55 @@
+body,.page-group,.page { background: #fff; }
+.content-block { margin: 0; }
+.content-block p { border-bottom: 1px solid rgba(255,255,255,.08); margin: 0; padding: .7em 0; }
+.content-block p a { color: #999; }
+.bm-nav { background: #000; height: 1.7rem; line-height: 1.7rem; }
+.bm-nav:after { height: 0; }
+.bm-nav .bm-title,.bm-nav .bm-icon { line-height: 1.7rem; padding: 0; font-size: .85rem; }
+.bm-nav .bm-title { font-weight: bold; color: #0081b0;  }
+.bm-nav .bm-icon { color: #b5b5b6; }
+.bm-nav .bm-icon-left { font-size: 1.3rem; }
+.bm-nav~.bm-content { top: 1.7rem; padding-bottom: 5rem; }
+.bm-nav~.bm-content img { display: block; width: 100%; }
+.swiper-container-horizontal .swiper-button-prev, .swiper-container-rtl .swiper-button-next { background-image: url(../images/btn-left.png); width: 17px; height: 28px; margin-top: -14px; background-size: 17px 28px; }
+.swiper-container-horizontal .swiper-button-next, .swiper-container-rtl .swiper-button-prev { background-image: url(../images/btn-right.png); width: 17px; height: 28px; margin-top: -14px; background-size: 17px 28px; }
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { width: 12px; height: 12px; background: transparent; border: 1px solid #fff; opacity: 1; }
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active { background: #fff; }
+.list-title { color: #666; font-size: .75rem; text-align: center; font-weight: bold; position: relative; padding-bottom: .45rem; }
+.list-title:after { content: ''; position: absolute; left: 50%; bottom: 0; width: 8%; margin-left: -4%; height: 1px;background-color: #333; }
+/*当地达人*/
+.daren h2 { color: #91cf48; font-size: .75rem; text-align: center; font-weight: bold; position: relative; padding-bottom: .45rem; }
+.daren h2:after { content: ''; position: absolute; left: 50%; bottom: 0; width: 8%; margin-left: -4%; height: 1px;background-color: #91cf48; }
+.daren .row .col-50 { margin-top: 4%; }
+/*特色美食*/
+.foot h2 { color: #f7555b; font-size: .75rem; text-align: center; font-weight: bold; position: relative; padding-bottom: .45rem; }
+.foot h2:after { content: ''; position: absolute; left: 50%; bottom: 0; width: 8%; margin-left: -4%; height: 1px;background-color: #f7555b; }
+.foot .row .col-50 { margin-top: 4%; }
+
+/*达人游记*/
+.youji h2 { color: #33d5ff; font-size: .75rem; text-align: center; font-weight: bold; position: relative; padding-bottom: .45rem; }
+.youji h2:after { content: ''; position: absolute; left: 50%; bottom: 0; width: 8%; margin-left: -4%; height: 1px;background-color: #33d5ff; }
+.youji .row .col-50 { margin-top: 4%; }
+/*动态新闻*/
+.news-title { color: #666; font-size: .75rem; text-align: center; font-weight: bold; position: relative; padding-bottom: .45rem; }
+.news-title:after { content: ''; position: absolute; left: 50%; bottom: 0; width: 8%; margin-left: -4%; height: 1px;background-color: #333; }
+.news-card { background: #a3a3a3; font-size: .4rem; color: #fff; border-radius: initial; }
+.news-card .item-content { min-height: 1.2rem; padding-left: 0; }
+.news-card .list-block .item-media+.item-inner { margin-left: 0; }
+.news-card .list-block .item-link .item-inner { background-image: url(../images/more.png); }
+.news-card .item-inner { padding-top: 0; padding-bottom: 0; min-height: 1.2rem; margin-left: 0; }
+.news-card .item-title { font-size: .4rem; color: #fff; text-indent: .2rem; }
+.fans-content { padding: 0 15%; }
+.fans-content .weibo,.fans-content .weixin { margin: 0; }
+.fans-content .weibo { float: left; }
+.fans-content .weixin { float: right; }
+#footer .footer-content { padding: 0 15%; }
+#footer h4,#footer h5,#footer p { text-align: center; margin: 0; }
+#footer h4 { margin: 1.8rem 0; color: #000; }
+#footer h5 { color: #000; font-size: .4rem; line-height: 1.25rem; margin-top: 1.3rem; }
+#footer p { color: #3e3a39; font-size: .4rem; line-height: 1.25rem; }
+.fans { text-align: center; font-size: .5rem; color: #666; }
+
+
+/*罗塔页面*/
+.luota-card { margin: 0; }
+.luota-tab { background: #a5a5a6; }
