@@ -69,6 +69,7 @@ body,.page-group,.page { background: #fff; }
 
 /*罗塔页面*/
 .luota-card { margin: 0; }
+.luota-card a { margin: 0; width: 100%; }
 .luota-tab { background: #a5a5a6; padding: 2.6rem 0 1.3rem 0; }
 .luota-tab h1 { text-align: center; color: #16a542; margin-bottom: 0; line-height: 1.2; font-size: 1.5rem; }
 .luota-tab .buttons-row { text-align: center; width: 100%; display: block; }
