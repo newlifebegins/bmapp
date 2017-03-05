@@ -81,7 +81,7 @@ body,.page-group,.page { background: #fff; }
 .luota-tab .card li { padding: .4rem 1.2rem; border-bottom: 1px solid #e7e7e7; }
 .luota-tab .card li:nth-of-type(1) { border-top: 1px solid #e7e7e7; }
 .luota-tab .card .list-block .item-inner:after { display: none; }
-.luota-tab .list-block .item-media { width: .7rem; background-image: url(../images/luota-list.png); background-size: .7rem; margin-right: .25rem; }
+.luota-tab .list-block .item-media { width: .7rem; background-image: url(../images/luota-list.png); background-size: .7rem; margin-right: .25rem; background-repeat: no-repeat; }
 .luota-tab .card .list-block .item-link .item-inner { background-image: url(../images/luota-more.png); }
 .luota-tab .card .item-title { font-size: .6rem; }
 .luota-tab .card .item-title span { font-family: 'Tahoma'; margin-left: .25rem; }
