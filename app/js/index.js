@@ -12,5 +12,8 @@ $(function() {
 		pagination :'.swiper-pagination',
 		autoplay:5000,
 		loop:true
+	});
+	$(".card-link").find("img").click(function(){
+		$(this).next(".img-desc").css('bottom','0');
 	})
 });
